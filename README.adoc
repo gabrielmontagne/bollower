@@ -1,0 +1,16 @@
+= bollower
+Gabriel Montagné Láscaris-Comneno <gabriel@tibas.london>
+v0.0.1
+
+Takes a CSV file with headers, and a sentence with tokens for each of the headers, and returns _n_ random permutations of the sentence.
+Pass the sentence between quotes.
+
+----
+usage: bollower [-h] [--csv CSV] [--sentence SENTENCE] [--n N]
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --csv CSV
+  --sentence SENTENCE
+  --n N
+----
