@@ -14,3 +14,6 @@ optional arguments:
   --sentence SENTENCE
   --n N
 ----
+
+To install you'll need Python (3, of course). 
+Clone and run `python setup.py`

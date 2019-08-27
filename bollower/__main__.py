@@ -18,8 +18,6 @@ def main():
             if v:
                 columns[k].append(v)
 
-    print(columns.keys())
-
     for n in range(args.n):
         s = args.sentence
         for k in columns.keys():
