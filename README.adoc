@@ -17,3 +17,21 @@ optional arguments:
 
 To install you'll need Python (3, of course). 
 Clone and run `python setup.py`
+
+Given an `algo.csv`
+
+----
+ADJ,WHO,WHAT,OF,PLACE
+sad,soldier, shuffled,empty,chapel
+cheeky,schoolboy,barreled,hot,dining room
+----
+
+
+`bollower --csv algo.csv --sentence "The ADJ WHO, yes, WHAT always OF in PLACE" -n 10`
+
+Might produce, 
+
+```
+The cheeky schoolboy, yes, barreled always empty in dining room
+The sad soldier, yes, barreled always hot in chapel
+```
